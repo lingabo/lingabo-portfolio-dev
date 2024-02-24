@@ -73,7 +73,30 @@ img,
   .main {
     margin: 0;
   }
+
 }
+
+@media (max-width: 425px){
+
+  .font-big-hero {
+      font-size: 3rem;
+  }
+}
+@media (max-width: 768px){
+
+  .font-big-hero {
+      font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .width-70, .width-50, .width-40, .width-30, .width-20 {
+      width: 100%;
+  }
+}
+
 
 .nav-link{
   color:var(--dark);
@@ -195,4 +218,18 @@ footer{
 .lg-i{
   height: 100px;
   width: 120px;
+}
+.footerClass{
+ display: flex;
+ position: relative;
+ flex-flow: column wrap; 
+  justify-content: center; 
+  margin: 25px;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 80px;
+  
+}
+.font-suivi{
+  font-weight: 800;
 }
